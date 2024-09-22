@@ -1,36 +1,41 @@
+/* Estilos generales para nav y header */
 nav, header {
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación */
+#navbarNav a {
     color: black;
 }
 
-
-#navbarNav a{
-    color:black;
-}
-
+/* Icono personalizado */
 .icono {
-    font-size: 3rem; 
-    color: wheat;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
     padding: 1rem;
     margin: 1rem;
     border-radius: 10px;
 }
 
-
+/* Márgenes para subtítulos de habilidades */
 .subtitulo-habilidades {
     margin-top: 20px;
 }
 
+/* Estilos para el header */
 header {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    height: 100vh;
-
-    background-image: url(https://scontent.fcvj2-1.fna.fbcdn.net/v/t39.30808-6/447956452_1113621819899748_3599252295745855968_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGeh0QOfoC3YS_N7g0JxsVv42Pg48tc4ErjY-Djy1zgSkjNKQHhTZgvbYbIL6zlKQEuduxZCY8CkbnrJaaaV-5t&_nc_ohc=2kTxJQ9SIEkQ7kNvgHopmWT&_nc_ht=scontent.fcvj2-1.fna&oh=00_AYBLDr8OvMhH9yKAH89Hn5oDswrMyELyX2MVqGZHhb_jcg&oe=667827DF);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('imagen2.jpg/');
+    color: rgb(17, 1, 1);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Keep the image in place while scrolling */
-    filter: brightness(0.8); /* Adjust the brightness */
-}
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
   
